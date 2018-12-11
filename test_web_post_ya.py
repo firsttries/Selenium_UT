@@ -32,6 +32,6 @@ class GoogleSearch(unittest.TestCase):
         time.sleep(2)
         button_final = driver.find_element_by_xpath('//*[@id="nb-13"]/span/span/span')
         button_final.click()
-        time.sleep(500)
+        time.sleep(5)
     def tearDown(self):
         self.driver.close()
